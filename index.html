@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>El deporte de motor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&amp;family=Big+Shoulders+Display:wght@700;800;900&amp;display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="app">
+  <div class="viewport" id="viewport">
+    <div class="frame" id="frame">
+      <div class="stage" id="stage">
+
+        <!-- 1 · Título -->
+        <section class="slide s-title" aria-roledescription="slide" aria-label="1 de 10">
+          <div class="band" aria-hidden="true"></div>
+          <div class="body">
+            <p class="kicker">Presentación de español</p>
+            <h1>El deporte de motor</h1>
+            <p class="lead">Me gustan los coches. Me gustan las carreras.</p>
+            <p class="who">Me llamo <span class="name" id="name" contenteditable="true" spellcheck="false" role="textbox" aria-label="Tu nombre">Auguste</span></p>
+          </div>
+        </section>
+
+        <!-- 2 · Programa -->
+        <section class="slide s-plan" aria-roledescription="slide" aria-label="2 de 10">
+          <div class="body">
+            <p class="kicker">Hoy hablo de…</p>
+            <h2>Cuatro carreras</h2>
+            <ol class="cards">
+              <li><span class="n">1</span><span class="t">La Fórmula 1</span></li>
+              <li><span class="n">2</span><span class="t">El WRC</span></li>
+              <li><span class="n">3</span><span class="t">El DTM</span></li>
+              <li><span class="n">4</span><span class="t">Las 24 Horas de Le Mans</span></li>
+            </ol>
+          </div>
+        </section>
+
+        <!-- 3 · Fórmula 1 -->
+        <section class="slide s-f1" aria-roledescription="slide" aria-label="3 de 10">
+          <div class="ghost" aria-hidden="true">F1</div>
+          <div class="body">
+            <p class="kicker">Carrera 1</p>
+            <h2>La Fórmula 1</h2>
+            <div class="split">
+              <ul class="lines">
+                <li>Es muy famosa.</li>
+                <li>Los coches son muy rápidos.</li>
+                <li>Los pilotos son muy buenos.</li>
+                <li>Las carreras son en circuitos, en muchos países.</li>
+              </ul>
+              <figure class="figure">
+                <svg class="ill" viewBox="0 0 400 280" role="img" aria-label="Dibujo de un coche de Fórmula 1">
+                  <rect class="sk" width="400" height="280"/>
+                  <line class="gd" x1="0" y1="229" x2="400" y2="229"/>
+                  <path class="sp" d="M4 178 H26 M4 196 H22 M4 214 H28"/>
+                  <g transform="translate(0 28)">
+                    <path class="ac" d="M36 94 L104 88 L104 98 L36 104 Z"/>
+                    <path class="bd" d="M34 80 L44 80 L46 112 L36 112 Z"/>
+                    <path class="ln" d="M76 100 L82 150"/>
+                    <path class="bd" d="M72 150 L88 128 L152 120 L176 104 L202 106 L208 122 L242 130 L320 148 L372 166 L372 176 L300 178 L112 178 Z"/>
+                    <path class="ac" d="M104 150 L270 142 L282 148 L104 160 Z"/>
+                    <circle class="ac" cx="212" cy="116" r="9"/>
+                    <path class="ln" d="M206 124 L244 130"/>
+                    <path class="bd" d="M326 182 L394 182 L394 190 L318 190 Z"/>
+                    <path class="ac" d="M388 170 L396 170 L396 192 L388 192 Z"/>
+                    <circle class="tr" cx="100" cy="164" r="36"/><circle class="rm" cx="100" cy="164" r="17"/><circle class="tr" cx="100" cy="164" r="5"/>
+                    <circle class="tr" cx="312" cy="170" r="30"/><circle class="rm" cx="312" cy="170" r="14"/><circle class="tr" cx="312" cy="170" r="4"/>
+                  </g>
+                </svg>
+                <img class="real" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Formula_one.jpg" loading="eager" decoding="async" alt="Un coche de Fórmula 1">
+                <figcaption>Fórmula 1</figcaption>
+              </figure>
+            </div>
+            <p class="because">Me gusta la Fórmula 1 porque es rápida y es emocionante.</p>
+          </div>
+        </section>
+
+        <!-- 4 · WRC -->
+        <section class="slide s-wrc" aria-roledescription="slide" aria-label="4 de 10">
+          <div class="ghost" aria-hidden="true">WRC</div>
+          <div class="body">
+            <p class="kicker">Carrera 2</p>
+            <h2>El WRC</h2>
+            <div class="split">
+              <div class="col">
+                <ul class="lines">
+                  <li>Es el campeonato del mundo de rallies.</li>
+                  <li>Los coches corren en la tierra, en la nieve y en el asfalto.</li>
+                  <li>Hay un piloto y un copiloto.</li>
+                  <li>Un piloto francés es muy famoso: Sébastien Loeb.</li>
+                </ul>
+              </div>
+              <figure class="figure">
+                <svg class="ill" viewBox="0 0 400 280" role="img" aria-label="Dibujo de un coche de rally sobre tierra, nieve y asfalto">
+                  <rect class="sk" width="400" height="280"/>
+                  <path class="mt" d="M0 214 L60 150 L90 176 L140 124 L200 190 L250 136 L300 176 L350 132 L400 190 L400 214 Z"/>
+                  <rect x="0" y="214" width="150" height="18" fill="#7a5a35"/>
+                  <rect x="150" y="214" width="120" height="18" fill="#e8eaee"/>
+                  <rect x="270" y="214" width="130" height="18" fill="#3b3e45"/>
+                  <circle class="dust" cx="34" cy="200" r="13"/><circle class="dust" cx="16" cy="190" r="9"/><circle class="dust" cx="44" cy="180" r="8"/>
+                  <path class="ac" d="M40 112 L98 108 L98 116 L40 120 Z"/>
+                  <path class="ln" d="M56 120 L58 138 M86 116 L88 134"/>
+                  <path class="bd" d="M52 184 L52 142 L68 134 L90 104 L170 100 L212 130 L296 138 L344 152 L348 184 Z"/>
+                  <path class="gl" d="M96 108 L168 104 L198 130 L92 130 Z"/>
+                  <path class="ln" d="M132 106 L134 130 M130 132 L130 180"/>
+                  <path class="ac" d="M122 99 L150 98 L150 104 L122 105 Z"/>
+                  <circle class="ac" cx="166" cy="156" r="15"/>
+                  <text class="num" x="166" y="163" text-anchor="middle">7</text>
+                  <path class="ac" d="M332 156 L346 158 L346 166 L332 166 Z"/>
+                  <circle class="tr" cx="104" cy="184" r="30"/><circle class="rm" cx="104" cy="184" r="14"/><circle class="tr" cx="104" cy="184" r="4"/>
+                  <circle class="tr" cx="296" cy="184" r="30"/><circle class="rm" cx="296" cy="184" r="14"/><circle class="tr" cx="296" cy="184" r="4"/>
+                  <text class="tx" x="75" y="254" text-anchor="middle">tierra</text>
+                  <text class="tx" x="210" y="254" text-anchor="middle">nieve</text>
+                  <text class="tx" x="335" y="254" text-anchor="middle">asfalto</text>
+                </svg>
+                <img class="real" src="https://upload.wikimedia.org/wikipedia/commons/4/48/2005_Rally_Catalunya.jpg" loading="eager" decoding="async" alt="Un coche de rally">
+                <figcaption>WRC · rally</figcaption>
+              </figure>
+            </div>
+            <p class="because">Me gusta el WRC porque es difícil y es muy bonito.</p>
+          </div>
+        </section>
+
+        <!-- 5 · DTM -->
+        <section class="slide s-dtm" aria-roledescription="slide" aria-label="5 de 10">
+          <div class="ghost" aria-hidden="true">DTM</div>
+          <div class="body">
+            <p class="kicker">Carrera 3</p>
+            <h2>El DTM</h2>
+            <div class="split">
+              <div class="col">
+                <ul class="lines">
+                  <li>Es un campeonato de Alemania.</li>
+                  <li>Los coches son grandes y fuertes.</li>
+                  <li>Son coches de marcas famosas:</li>
+                </ul>
+                <ul class="chips is-accent">
+                  <li>Mercedes</li>
+                  <li>BMW</li>
+                  <li>Audi</li>
+                </ul>
+              </div>
+              <figure class="figure">
+                <svg class="ill" viewBox="0 0 400 280" role="img" aria-label="Dibujo de un coche de turismo de carreras con alerón">
+                  <rect class="sk" width="400" height="280"/>
+                  <line class="gd" x1="0" y1="215" x2="400" y2="215"/>
+                  <path class="sp" d="M4 150 H26 M4 168 H20 M4 186 H28"/>
+                  <path class="ac" d="M36 124 L100 122 L100 130 L36 132 Z"/>
+                  <path class="ln" d="M58 132 L60 142 M88 130 L90 140"/>
+                  <path class="bd" d="M46 186 L48 150 L70 142 L116 138 L150 106 L214 104 L252 134 L332 146 L368 162 L368 186 Z"/>
+                  <path class="gl" d="M124 134 L154 110 L210 108 L242 134 Z"/>
+                  <path class="ln" d="M184 110 L186 134 M162 136 L162 182"/>
+                  <path class="ac" d="M60 166 L356 166 L360 172 L58 174 Z"/>
+                  <circle class="ac" cx="196" cy="152" r="13"/>
+                  <text class="num" x="196" y="159" text-anchor="middle">5</text>
+                  <path class="ac" d="M350 150 L364 152 L364 160 L350 160 Z"/>
+                  <path class="bd" d="M336 190 L384 190 L384 197 L328 197 Z"/>
+                  <circle class="tr" cx="102" cy="185" r="30"/><circle class="rm" cx="102" cy="185" r="14"/><circle class="tr" cx="102" cy="185" r="4"/>
+                  <circle class="tr" cx="298" cy="185" r="30"/><circle class="rm" cx="298" cy="185" r="14"/><circle class="tr" cx="298" cy="185" r="4"/>
+                </svg>
+                <img class="real" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/2018_Deutsche_Tourenwagen_Masters%2C_Brands_Hatch_%2830627433527%29.jpg/1280px-2018_Deutsche_Tourenwagen_Masters%2C_Brands_Hatch_%2830627433527%29.jpg" loading="eager" decoding="async" alt="Un coche del DTM">
+                <figcaption>DTM</figcaption>
+              </figure>
+            </div>
+            <p class="because">Me gusta el DTM porque las carreras son muy buenas.</p>
+          </div>
+        </section>
+
+        <!-- 6 · Audi quattro -->
+        <section class="slide s-quattro" aria-roledescription="slide" aria-label="6 de 10">
+          <div class="ghost" aria-hidden="true">4x4</div>
+          <div class="body">
+            <p class="kicker">Audi</p>
+            <h2>El famoso Audi quattro</h2>
+            <div class="split">
+              <div class="col">
+                <ul class="lines">
+                  <li>Quattro significa «cuatro» en italiano.</li>
+                  <li>Es la tracción a las cuatro ruedas.</li>
+                  <li>Da más agarre en la nieve y en la tierra.</li>
+                  <li>Audi ganó cuatro títulos mundiales entre 1982 y 1984.</li>
+                </ul>
+              </div>
+              <div class="side">
+                <figure class="figure">
+                  <svg class="ill" viewBox="0 0 400 280" role="img" aria-label="Esquema de un coche visto desde arriba con las cuatro ruedas motrices">
+                    <rect class="sk" width="400" height="280"/>
+                    <rect class="tr" x="92" y="60" width="56" height="26" rx="6"/>
+                    <rect class="tr" x="92" y="194" width="56" height="26" rx="6"/>
+                    <rect class="tr" x="252" y="60" width="56" height="26" rx="6"/>
+                    <rect class="tr" x="252" y="194" width="56" height="26" rx="6"/>
+                    <rect class="bd" x="76" y="84" width="248" height="112" rx="36"/>
+                    <rect class="gl" x="150" y="100" width="96" height="80" rx="16"/>
+                    <rect class="bd" x="262" y="112" width="46" height="56" rx="8"/>
+                    <path fill="none" stroke="var(--signal)" stroke-width="6" stroke-linecap="round" d="M285 140 L120 140 M120 73 L120 207 M280 73 L280 207"/>
+                    <path class="ac" d="M318 64 L336 73 L318 82 Z"/>
+                    <path class="ac" d="M318 198 L336 207 L318 216 Z"/>
+                    <path class="ac" d="M158 64 L176 73 L158 82 Z"/>
+                    <path class="ac" d="M158 198 L176 207 L158 216 Z"/>
+                    <text class="big4" x="198" y="150" text-anchor="middle">4×4</text>
+                  </svg>
+                  <img class="real" src="https://upload.wikimedia.org/wikipedia/commons/1/11/Michele_Mouton-Fabrizia_Pons_Audi_Quattro_Sport-Chatsworth_House-1984_RAC_Rally_UK_%285812346644%29.jpg" loading="eager" decoding="async" alt="Un Audi quattro de rally">
+                  <figcaption>Audi Sport quattro · RAC Rally 1984</figcaption>
+                </figure>
+                <p class="badge"><b>1980</b>Audi presenta el quattro.</p>
+              </div>
+            </div>
+            <p class="because">Me gusta mucho el quattro.</p>
+          </div>
+        </section>
+
+        <!-- 7 · Le Mans -->
+        <section class="slide s-lemans" aria-roledescription="slide" aria-label="7 de 10">
+          <div class="ghost" aria-hidden="true">24H</div>
+          <div class="body">
+            <p class="kicker">Carrera 4</p>
+            <h2 class="long">Las 24 Horas de Le Mans</h2>
+            <div class="split">
+              <div class="col">
+                <ul class="lines">
+                  <li>Es una carrera en Francia.</li>
+                  <li>Es una carrera muy, muy larga.</li>
+                  <li>Los coches corren de día y de noche.</li>
+                  <li>Hay varios pilotos en cada coche.</li>
+                </ul>
+              </div>
+              <figure class="figure">
+                <svg class="ill" viewBox="0 0 400 280" role="img" aria-label="Dibujo de un coche de carreras entre el día y la noche, con una barra de 24 horas">
+                  <rect class="sk" width="400" height="280"/>
+                  <rect x="0" y="0" width="200" height="214" fill="#23262c"/>
+                  <rect x="200" y="0" width="200" height="214" fill="#0c0d10"/>
+                  <circle cx="62" cy="58" r="20" fill="var(--signal)"/>
+                  <circle cx="338" cy="58" r="18" fill="var(--ink)"/>
+                  <circle cx="346" cy="52" r="16" fill="#0c0d10"/>
+                  <g fill="var(--ink)" opacity=".7"><circle cx="248" cy="40" r="1.8"/><circle cx="276" cy="84" r="1.6"/><circle cx="300" cy="34" r="1.6"/><circle cx="372" cy="100" r="1.8"/><circle cx="230" cy="104" r="1.4"/></g>
+                  <path d="M374 172 L400 150 L400 198 Z" fill="var(--signal)" opacity=".35"/>
+                  <path class="ac" d="M60 152 L66 116 L100 118 L108 148 Z"/>
+                  <path class="bd" d="M36 184 L46 160 L110 150 L150 130 L196 122 L238 136 L330 154 L376 172 L378 186 Z"/>
+                  <path class="gl" d="M156 132 L196 125 L230 137 L152 142 Z"/>
+                  <circle class="tr" cx="96" cy="186" r="28"/><circle class="rm" cx="96" cy="186" r="13"/><circle class="tr" cx="96" cy="186" r="4"/>
+                  <circle class="tr" cx="322" cy="188" r="26"/><circle class="rm" cx="322" cy="188" r="12"/><circle class="tr" cx="322" cy="188" r="4"/>
+                  <line class="gd" x1="0" y1="215" x2="400" y2="215"/>
+                  <g stroke-width="20" stroke-dasharray="13.33 2" fill="none">
+                    <line x1="16" y1="236" x2="108" y2="236" stroke="var(--line)"/>
+                    <line x1="108" y1="236" x2="292" y2="236" stroke="var(--signal)"/>
+                    <line x1="292" y1="236" x2="384" y2="236" stroke="var(--line)"/>
+                  </g>
+                  <text class="tx" x="16" y="268">noche</text>
+                  <text class="tx" x="200" y="268" text-anchor="middle">día</text>
+                  <text class="tx" x="384" y="268" text-anchor="end">noche</text>
+                </svg>
+                <img class="real" src="https://upload.wikimedia.org/wikipedia/commons/9/96/WR_LMP02_-_2003_24_Hours_of_Le_Mans.jpg" loading="eager" decoding="async" alt="Un coche de las 24 Horas de Le Mans">
+                <figcaption>24 horas · Le Mans</figcaption>
+              </figure>
+            </div>
+            <p class="because">Me gusta mucho Le Mans.</p>
+          </div>
+        </section>
+
+        <!-- 8 · Renault -->
+        <section class="slide s-renault" aria-roledescription="slide" aria-label="8 de 10">
+          <div class="ghost" aria-hidden="true">V10</div>
+          <div class="body">
+            <p class="kicker">Antes</p>
+            <h2 class="long">Renault y los motores V10</h2>
+            <div class="split">
+              <div class="col">
+                <ul class="lines">
+                  <li>Renault es una marca francesa.</li>
+                  <li>En los años noventa, hacía motores V10.</li>
+                  <li>Los motores V10 eran muy potentes.</li>
+                  <li>Hacían un ruido increíble.</li>
+                  <li>Ganaron muchos campeonatos de Fórmula 1.</li>
+                </ul>
+              </div>
+              <div class="side">
+                <figure class="figure">
+                  <svg class="ill" viewBox="0 0 400 280" role="img" aria-label="Esquema de un motor en V con diez cilindros">
+                    <rect class="sk" width="400" height="280"/>
+                    <g transform="translate(200 200) rotate(-36)">
+                      <rect class="bd" x="-24" y="-146" width="48" height="116" rx="8"/>
+                      <rect class="ac" x="-20" y="-84" width="40" height="24" rx="3"/>
+                      <path class="ln" d="M0 -60 L0 -10"/>
+                      <rect class="bd" x="-30" y="-156" width="60" height="12" rx="3"/>
+                    </g>
+                    <g transform="translate(200 200) rotate(36)">
+                      <rect class="bd" x="-24" y="-146" width="48" height="116" rx="8"/>
+                      <rect class="ac" x="-20" y="-84" width="40" height="24" rx="3"/>
+                      <path class="ln" d="M0 -60 L0 -10"/>
+                      <rect class="bd" x="-30" y="-156" width="60" height="12" rx="3"/>
+                    </g>
+                    <circle class="bd" cx="200" cy="200" r="22"/>
+                    <circle class="ac" cx="200" cy="200" r="8"/>
+                    <g fill="var(--signal)"><circle cx="96" cy="246" r="6"/><circle cx="118" cy="246" r="6"/><circle cx="140" cy="246" r="6"/><circle cx="162" cy="246" r="6"/><circle cx="184" cy="246" r="6"/></g>
+                    <g fill="none" stroke="var(--ink)" stroke-width="3"><circle cx="216" cy="246" r="6"/><circle cx="238" cy="246" r="6"/><circle cx="260" cy="246" r="6"/><circle cx="282" cy="246" r="6"/><circle cx="304" cy="246" r="6"/></g>
+                  </svg>
+                  <img class="real" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Renault_RS25_front-right_2017_Museo_Fernando_Alonso.jpg" loading="eager" decoding="async" alt="Un motor V10">
+                  <figcaption>Renault RS25 · motor V10 (2005)</figcaption>
+                </figure>
+                <p class="badge"><b>1978</b>Renault gana las 24 Horas de Le Mans.</p>
+              </div>
+            </div>
+            <p class="because">Me gusta mucho el ruido del V10.</p>
+          </div>
+        </section>
+
+        <!-- 9 · Conclusión -->
+        <section class="slide s-conclusion" aria-roledescription="slide" aria-label="9 de 10">
+          <div class="body">
+            <p class="kicker">En conclusión</p>
+            <h2 class="two">El deporte de motor es fantástico</h2>
+            <ul class="chips">
+              <li>Fórmula 1</li>
+              <li>WRC</li>
+              <li>DTM</li>
+              <li>Le Mans</li>
+            </ul>
+            <p class="because">Son diferentes, pero me gustan mucho.</p>
+          </div>
+        </section>
+
+        <!-- 10 · Gracias -->
+        <section class="slide s-end" aria-roledescription="slide" aria-label="10 de 10">
+          <div class="band" aria-hidden="true"></div>
+          <div class="body">
+            <p class="kicker">Fin</p>
+            <p class="big">Gracias</p>
+            <p class="lead">¿Tenéis preguntas?</p>
+          </div>
+        </section>
+
+        <div class="hud" aria-hidden="true"><b id="lap">01</b> / <span id="laps">10</span></div>
+        <div class="track" aria-hidden="true"><i id="bar"></i></div>
+      </div>
+    </div>
+  </div>
+
+
+  <nav class="controls" aria-label="Navigation de la présentation">
+    <button class="btn" id="prev" type="button" aria-label="Diapositive précédente">← Précédent</button>
+    <button class="btn" id="next" type="button" aria-label="Diapositive suivante">Suivant →</button>
+    <span class="count" id="count" aria-live="polite">1 / 10</span>
+    <ol class="dots" id="dots"></ol>
+    <span class="hint">Flèches ou espace : naviguer · F : plein écran · bouge la souris pour réafficher</span>
+    <button class="btn" id="btn-full" type="button">Plein écran</button>
+  </nav>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

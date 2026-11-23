@@ -1,0 +1,6 @@
+img/f1.jpg: https://upload.wikimedia.org/wikipedia/commons/2/2f/Formula_one.jpg
+img/wrc.jpg: https://upload.wikimedia.org/wikipedia/commons/4/48/2005_Rally_Catalunya.jpg
+img/dtm.jpg: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/2018_Deutsche_Tourenwagen_Masters%2C_Brands_Hatch_%2830627433527%29.jpg/1280px-2018_Deutsche_Tourenwagen_Masters%2C_Brands_Hatch_%2830627433527%29.jpg
+img/quattro.jpg: https://upload.wikimedia.org/wikipedia/commons/1/11/Michele_Mouton-Fabrizia_Pons_Audi_Quattro_Sport-Chatsworth_House-1984_RAC_Rally_UK_%285812346644%29.jpg
+img/lemans.jpg: https://upload.wikimedia.org/wikipedia/commons/9/96/WR_LMP02_-_2003_24_Hours_of_Le_Mans.jpg
+img/v10.jpg: https://upload.wikimedia.org/wikipedia/commons/3/39/Renault_RS25_front-right_2017_Museo_Fernando_Alonso.jpg
